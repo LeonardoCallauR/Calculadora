@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCalculadora", "WebApiCalculadora\WebApiCalculadora.csproj", "{BE1F4B42-25D2-4E63-A666-39A39BCA9723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCalculadora", "WebApiCalculadora\WebApiCalculadora.csproj", "{BE1F4B42-25D2-4E63-A666-39A39BCA9723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTCalculadora", "UTCalculadora\UTCalculadora.csproj", "{7D81CCC9-35A7-4CD4-8757-E15650E3C3A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE1F4B42-25D2-4E63-A666-39A39BCA9723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1F4B42-25D2-4E63-A666-39A39BCA9723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1F4B42-25D2-4E63-A666-39A39BCA9723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D81CCC9-35A7-4CD4-8757-E15650E3C3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D81CCC9-35A7-4CD4-8757-E15650E3C3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D81CCC9-35A7-4CD4-8757-E15650E3C3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D81CCC9-35A7-4CD4-8757-E15650E3C3A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
