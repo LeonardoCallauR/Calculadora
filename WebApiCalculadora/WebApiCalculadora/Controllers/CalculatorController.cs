@@ -14,13 +14,13 @@ namespace WebApiCalculadora.Controllers
         [HttpPost]
         public int Add([FromHeader]int a,[FromHeader]int b,int c)
         {
-            return a + b ;
+            return a + b +1;
         }
         [Route("Add")]
         [HttpGet]
         public int Add(int a,int b)
         {
-            return a + b ;
+            return a + b;
         }
         [Route("Multiply")]
         [HttpGet]
